@@ -56,7 +56,7 @@ class Song
     end
     artist = y[0]
     songname = y[1]
-    song = self.create.new
+    song = self.create
     song.name = songname
     song.artist_name = artist
 
